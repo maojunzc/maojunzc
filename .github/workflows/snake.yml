@@ -1,9 +1,12 @@
-name: Generate Snake
+name: Generate Profile Assets
 
 on:
   schedule:
     - cron: "0 0 * * *"   # 每天 UTC 0 点更新
   workflow_dispatch:        # 支持手动触发
+  push:
+    paths:
+      - ".github/scripts/gen-stats.mjs"
 
 permissions:
   contents: write
@@ -13,7 +16,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate github-contribution-grid-snake.svg
+      - uses: actions/checkout@v4
+
+      - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -21,7 +26,18 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push snake to output branch
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate stats cards
+        run: node .github/scripts/gen-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
