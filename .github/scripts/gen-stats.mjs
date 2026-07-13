@@ -50,7 +50,7 @@ function card(title, lines, accent = "#9a8f7a") {
   const rows = lines
     .map(
       (l, i) =>
-        `<text x="20" y="${78 + i * 26}" font-family="Georgia, serif" font-size="16" fill="#3a3733">${esc(
+        `<text x="20" y="${78 + i * 26}" font-family="Georgia, serif" font-size="16" fill="#5c574f">${esc(
           l
         )}</text>`
     )
@@ -60,7 +60,7 @@ function card(title, lines, accent = "#9a8f7a") {
   <text x="20" y="38" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#2c2a27">${esc(
     title
   )}</text>
-  <line x1="20" y1="50" x2="340" y2="50" stroke="${accent}" stroke-width="1"/>
+  <line x1="20" y1="50" x2="340" y2="50" stroke="${accent}" stroke-width="1" opacity="0.7"/>
   ${rows}
 </svg>`;
 }
