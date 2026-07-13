@@ -38,20 +38,8 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=maojunzc&show_icons=true&theme=vue&hide_border=true&count_private=true" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=maojunzc&layout=compact&theme=vue&hide_border=true" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=maojunzc&theme=vue&hide_border=true" alt="Streak Stats"/>
-</p>
-
----
-
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=maojunzc&theme=vue&no-frame=true&column=7&margin-w=15" alt="Trophies"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/stats.svg" alt="GitHub Stats"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/langs.svg" alt="Top Languages"/>
 </p>
 
 ---
@@ -68,13 +56,11 @@
 
 ---
 
-### 📈 Contribution Graph
+### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=9a8f7a&height=60&section=header&text=commits&fontSize=20" alt="commits"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/github-contribution-grid-snake.svg" alt="Snake"/>
 </p>
-
-> 💡 想加贪吃蛇贡献图动画？开启仓库的 GitHub Actions（snake workflow）后即可启用，我可以帮你配置。
 
 ---
 
