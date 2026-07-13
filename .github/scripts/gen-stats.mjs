@@ -1,6 +1,6 @@
 // 自托管 GitHub 统计卡片生成器（零外部依赖，仅调用 GitHub API）
 // 生成 dist/stats.svg 与 dist/langs.svg，由 generate-stats.yml 推送到 output 分支
-import { writeFileSync } from "node:fs";
+import { writeFileSync, mkdirSync } from "node:fs";
 
 const USER = process.env.GITHUB_REPOSITORY_OWNER;
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -66,6 +66,7 @@ function card(title, lines, accent = "#9a8f7a") {
 }
 
 (async () => {
+  mkdirSync("dist", { recursive: true });
   const res = await gh(Q);
   if (res.errors) {
     console.error("GraphQL errors:", JSON.stringify(res.errors));
