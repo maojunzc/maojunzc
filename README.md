@@ -44,22 +44,13 @@
 ```text
 📊 This Week I Spent My Time On
 
-⏱️  Total Time                 4 hrs 3 mins
+⏱️  Total Time                   No data yet
 
-💬 Programming Languages:
-  TypeScript                    ██████████░░░░░░░░░░░░░░░  41.2%
-  Python                        ██████░░░░░░░░░░░░░░░░░░░  23.8%
-  Dart                          ███░░░░░░░░░░░░░░░░░░░░░░  12.5%
-  HTML                          ██░░░░░░░░░░░░░░░░░░░░░░░  10.1%
-  Other                         ███░░░░░░░░░░░░░░░░░░░░░░  12.4%
+💬 Programming Languages:  No Activity Tracked This Week
 
-🔥 Editors:
-  VS Code                       ██████████████████████░░░  88.7%
-  Android Studio                ██░░░░░░░░░░░░░░░░░░░░░░░  11.3%
+🔥 Editors:            No Activity Tracked This Week
 
-💻 Operating System:
-  Windows                       ████████████████████████░  96.5%
-  Linux                         ░░░░░░░░░░░░░░░░░░░░░░░░░   3.5%
+💻 Operating System:   No Activity Tracked This Week
 ```
 <!-- wakatime:end -->
 
