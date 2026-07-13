@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/main/assets/banners/header-minimal.svg" alt="maojunzc" width="100%"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/main/assets/banners/header.svg" alt="maojunzc" width="100%"/>
 </p>
 
 <p align="center">
