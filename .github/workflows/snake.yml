@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - ".github/scripts/gen-stats.mjs"
+      - ".github/scripts/gen-wakatime.mjs"
+      - ".github/scripts/gen-tech.mjs"
 
 permissions:
   contents: write
@@ -42,6 +44,11 @@ jobs:
 
       - name: Generate tech stack badges
         run: node .github/scripts/gen-tech.mjs
+
+      - name: Generate WakaTime card
+        run: node .github/scripts/gen-wakatime.mjs
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

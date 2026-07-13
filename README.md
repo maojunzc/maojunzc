@@ -26,6 +26,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/stats.svg" alt="GitHub Stats"/>
   <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/langs.svg" alt="Top Languages"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/wakatime.svg" alt="Coding Time"/>
 </p>
 
 ---
