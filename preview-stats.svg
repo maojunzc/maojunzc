@@ -1,0 +1,19 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320">
+  <rect width="360" height="320" rx="12" fill="#f4f1ea" stroke="#9a8f7a" stroke-width="1" opacity="0.97"/>
+  
+  <line x1="22" y1="30" x2="58" y2="30" stroke="#9a8f7a" stroke-width="2"/>
+  <text x="22" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#2c2a27">GitHub Stats</text>
+  
+    <text x="34" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5c574f">Repositories</text>
+    <text x="34" y="154" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#2c2a27">4</text>
+    <text x="192" y="118" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5c574f">Total Stars</text>
+    <text x="192" y="154" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#2c2a27">1</text>
+    <text x="34" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5c574f">Commits</text>
+    <text x="34" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#2c2a27">69</text>
+    <text x="192" y="214" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5c574f">Pull Requests</text>
+    <text x="192" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#2c2a27">0</text>
+    <text x="34" y="310" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5c574f">Issues</text>
+    <text x="34" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#2c2a27">0</text>
+    <text x="192" y="310" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#5c574f">Followers</text>
+    <text x="192" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" fill="#2c2a27">0</text>
+</svg>

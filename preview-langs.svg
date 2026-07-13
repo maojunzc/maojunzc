@@ -1,0 +1,31 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320">
+  <rect width="360" height="320" rx="12" fill="#f4f1ea" stroke="#9a8f7a" stroke-width="1" opacity="0.97"/>
+  
+  <line x1="22" y1="30" x2="58" y2="30" stroke="#9a8f7a" stroke-width="2"/>
+  <text x="22" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#2c2a27">Top Languages</text>
+  
+    <text x="22" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">TypeScript</text>
+    <rect x="110" y="88" width="220" height="16" rx="8" fill="#e3ded2"/>
+    <rect x="110" y="88" width="145.7" height="16" rx="8" fill="#3178C6"/>
+    <text x="330" y="102" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2a27">66.2%</text>
+    <text x="22" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Rust</text>
+    <rect x="110" y="126" width="220" height="16" rx="8" fill="#e3ded2"/>
+    <rect x="110" y="126" width="51.9" height="16" rx="8" fill="#dea584"/>
+    <text x="330" y="140" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2a27">23.6%</text>
+    <text x="22" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">HTML</text>
+    <rect x="110" y="164" width="220" height="16" rx="8" fill="#e3ded2"/>
+    <rect x="110" y="164" width="9.2" height="16" rx="8" fill="#e34c26"/>
+    <text x="330" y="178" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2a27">4.2%</text>
+    <text x="22" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">CSS</text>
+    <rect x="110" y="202" width="220" height="16" rx="8" fill="#e3ded2"/>
+    <rect x="110" y="202" width="5.7" height="16" rx="8" fill="#563d7c"/>
+    <text x="330" y="216" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2a27">2.6%</text>
+    <text x="22" y="254" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Python</text>
+    <rect x="110" y="240" width="220" height="16" rx="8" fill="#e3ded2"/>
+    <rect x="110" y="240" width="4.9" height="16" rx="8" fill="#3572A5"/>
+    <text x="330" y="254" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2a27">2.2%</text>
+    <text x="22" y="292" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">JavaScript</text>
+    <rect x="110" y="278" width="220" height="16" rx="8" fill="#e3ded2"/>
+    <rect x="110" y="278" width="2.6" height="16" rx="8" fill="#f1e05a"/>
+    <text x="330" y="292" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#2c2a27">1.2%</text>
+</svg>

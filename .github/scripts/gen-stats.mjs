@@ -63,10 +63,11 @@ function head(title, w) {
 // GitHub Stats —— 2x3 大数字宫格
 function statsCard(items) {
   const w = 360,
-    h = 320,
     cols = 2,
     cw = (w - 44) / cols,
-    ch = 96;
+    ch = 96,
+    rows = Math.ceil(items.length / cols),
+    h = 84 + rows * ch + 16;
   const cells = items
     .map((it, i) => {
       const cx = 22 + (i % cols) * cw;
