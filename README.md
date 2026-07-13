@@ -1,13 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/main/assets/banners/header.svg" alt="maojunzc" width="100%"/>
-</p>
-
-<p align="center">
-  <a href="https://github.com/maojunzc?tab=followers">
-    <img src="https://img.shields.io/github/followers/maojunzc?label=Followers&style=social" alt="Followers"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=maojunzc&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views"/>
-  <img src="https://img.shields.io/github/stars/maojunzc?label=Stars&color=ffd700&style=flat-square" alt="Stars"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/main/assets/banners/header-v2.svg" alt="maojunzc" width="100%"/>
 </p>
 
 ---
@@ -18,7 +10,6 @@
 - 🌱 正在学习 **AI Agent** 与自动化工作流
 - 💡 喜欢把重复的琐事交给代码（刷步数、记账、博客部署…）
 - 📝 偶尔在博客记录折腾过程：[maojunzc.github.io](https://maojunzc.github.io)
-- 📫 联系我：通过 GitHub Issues 或仓库 Discussions 即可
 
 ---
 
@@ -62,12 +53,5 @@
   <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/github-contribution-grid-snake.svg" alt="Snake"/>
 </p>
 
----
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0e75b6&height=100&section=footer" alt="Footer"/>
-</p>
 
-<p align="center">
-  <sub>⭐ 如果这个主页对你有启发，欢迎 Star & Follow！</sub>
-</p>
