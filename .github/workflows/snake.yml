@@ -18,6 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prepare clean dist
+        run: rm -rf dist && mkdir dist
+
       - name: Generate snake
         uses: Platane/snk@v3
         with:
