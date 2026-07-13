@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8"/>
+<title>maojunzc · Minimal Literary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  .banner {
+    position:relative; width:1500px; height:500px; overflow:hidden;
+    background:#f4f1ea;
+    color:#3a3733;
+    font-family:"Cormorant Garamond","Noto Serif SC",serif;
+  }
+  .frame { position:absolute; inset:28px; border:1px solid rgba(58,55,51,.25); }
+  .corner { position:absolute; width:18px; height:18px; border:1.5px solid #9a8f7a; }
+  .c1 { top:22px; left:22px; border-right:none; border-bottom:none; }
+  .c2 { top:22px; right:22px; border-left:none; border-bottom:none; }
+  .c3 { bottom:22px; left:22px; border-right:none; border-top:none; }
+  .c4 { bottom:22px; right:22px; border-left:none; border-top:none; }
+  .content { position:absolute; left:90px; top:50%; transform:translateY(-50%); }
+  .kicker {
+    font-family:"Noto Serif SC",serif; font-size:17px; letter-spacing:6px;
+    color:#9a8f7a; font-weight:400; margin-bottom:18px;
+  }
+  .handle {
+    font-family:"Cormorant Garamond",serif; font-style:italic; font-weight:500;
+    font-size:92px; line-height:1; color:#2c2a27; letter-spacing:1px;
+  }
+  .tagline {
+    margin-top:20px; font-family:"Noto Serif SC",serif; font-size:22px;
+    font-weight:400; color:#5c574f; letter-spacing:3px;
+  }
+  .rule { width:120px; height:1px; background:#9a8f7a; margin-top:26px; }
+  .side {
+    position:absolute; right:90px; bottom:60px; text-align:right;
+    font-family:"Noto Serif SC",serif; font-size:15px; color:#9a8f7a;
+    letter-spacing:2px; line-height:2;
+  }
+  .side .en { font-family:"Cormorant Garamond",serif; font-style:italic; font-size:18px; color:#7a7363; }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="frame"></div>
+    <div class="corner c1"></div><div class="corner c2"></div>
+    <div class="corner c3"></div><div class="corner c4"></div>
+    <div class="content">
+      <div class="kicker">MAO JUN</div>
+      <div class="handle">maojunzc</div>
+      <div class="tagline">于代码与文字之间，慢慢生长</div>
+      <div class="rule"></div>
+    </div>
+    <div class="side">
+      <div class="en">build · automate · reflect</div>
+      <div>在重复中寻得秩序，于安静处留下痕迹</div>
+    </div>
+  </div>
+</body>
+</html>

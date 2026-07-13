@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8"/>
+<title>maojunzc · Neon Green</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  .banner {
+    position:relative; width:1500px; height:500px; overflow:hidden;
+    font-family:"Segoe UI","PingFang SC",system-ui,sans-serif;
+    background:url("neon-green/Cyberpunk_neon_banner_for_a_pr_2026-07-13T09-28-45.png") center/cover no-repeat;
+  }
+  .overlay { position:absolute; inset:0; background:linear-gradient(90deg,rgba(2,20,12,.55),rgba(2,20,12,.15) 55%,transparent); }
+  .content { position:absolute; left:90px; top:50%; transform:translateY(-50%); }
+  .handle {
+    font-size:64px; font-weight:800; letter-spacing:2px; color:#ecfdf5;
+    text-shadow:0 0 12px #34d399,0 0 28px #10b981,0 0 48px #059669;
+  }
+  .tagline {
+    margin-top:14px; font-size:24px; font-weight:500; color:#a7f3d0;
+    text-shadow:0 0 10px #34d399; letter-spacing:1px;
+  }
+  .chips { margin-top:26px; display:flex; gap:14px; }
+  .chip {
+    font-size:16px; font-weight:600; padding:8px 18px; border-radius:999px;
+    color:#d1fae5; border:1.5px solid #34d399;
+    box-shadow:0 0 12px rgba(52,211,153,.6),inset 0 0 10px rgba(52,211,153,.25);
+    background:rgba(6,78,59,.35); backdrop-filter:blur(4px);
+  }
+  .badge {
+    position:absolute; right:70px; bottom:54px; font-size:15px; font-weight:600;
+    color:#6ee7b7; letter-spacing:2px; text-shadow:0 0 10px #34d399;
+    border:1px solid rgba(52,211,153,.5); padding:8px 16px; border-radius:8px;
+    background:rgba(2,20,12,.4);
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="handle">@maojunzc</div>
+      <div class="tagline">Developer · Automator · AI Explorer</div>
+      <div class="chips">
+        <span class="chip">TypeScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Flutter</span>
+        <span class="chip">AI Agent</span>
+      </div>
+    </div>
+    <div class="badge">// build · automate · ship</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8"/>
+<title>maojunzc Cover · Neon Violet</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  .banner {
+    position:relative; width:1280px; height:640px; overflow:hidden;
+    font-family:"Segoe UI","PingFang SC",system-ui,sans-serif;
+    background:url("neon-violet/Cyberpunk_neon_banner_for_a_Gi_2026-07-13T09-28-42.png") center/cover no-repeat;
+  }
+  .overlay { position:absolute; inset:0; background:radial-gradient(circle at 50% 45%,rgba(23,4,46,.10),rgba(23,4,46,.55)); }
+  .content { position:absolute; left:0; right:0; top:50%; transform:translateY(-50%); text-align:center; }
+  .handle {
+    font-size:88px; font-weight:800; letter-spacing:3px; color:#f5e9ff;
+    text-shadow:0 0 14px #c084fc,0 0 34px #a855f7,0 0 60px #7e22ce;
+  }
+  .tagline {
+    margin-top:18px; font-size:28px; font-weight:500; color:#e9d5ff;
+    text-shadow:0 0 12px #c084fc; letter-spacing:2px;
+  }
+  .chips { margin-top:34px; display:flex; gap:16px; justify-content:center; }
+  .chip {
+    font-size:18px; font-weight:600; padding:9px 22px; border-radius:999px;
+    color:#f3e8ff; border:1.5px solid #c084fc;
+    box-shadow:0 0 14px rgba(192,132,252,.6),inset 0 0 10px rgba(192,132,252,.25);
+    background:rgba(59,7,100,.35); backdrop-filter:blur(4px);
+  }
+  .badge {
+    position:absolute; left:0; right:0; bottom:40px; text-align:center;
+    font-size:17px; font-weight:600; color:#d8b4fe; letter-spacing:3px;
+    text-shadow:0 0 10px #c084fc;
+  }
+</style>
+</head>
+<body>
+  <div class="banner">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="handle">@maojunzc</div>
+      <div class="tagline">Developer · Automator · AI Explorer</div>
+      <div class="chips">
+        <span class="chip">TypeScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Flutter</span>
+        <span class="chip">AI Agent</span>
+      </div>
+    </div>
+    <div class="badge">// build · automate · ship</div>
+  </div>
+</body>
+</html>
