@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banners/header-minimal.svg" alt="maojunzc" width="100%"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/main/assets/banners/header-minimal.svg" alt="maojunzc" width="100%"/>
 </p>
 
 <p align="center">
@@ -43,7 +43,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=maojunzc&theme=vue&hide_border=true" alt="Streak Stats"/>
+  <img src="https://streak-stats.demolab.com/?user=maojunzc&theme=vue&hide_border=true" alt="Streak Stats"/>
 </p>
 
 ---
@@ -71,8 +71,10 @@
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/github-contribution-grid-snake.svg" alt="Snake"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=9a8f7a&height=60&section=header&text=commits&fontSize=20" alt="commits"/>
 </p>
+
+> 💡 想加贪吃蛇贡献图动画？开启仓库的 GitHub Actions（snake workflow）后即可启用，我可以帮你配置。
 
 ---
 
