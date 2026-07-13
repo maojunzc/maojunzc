@@ -60,23 +60,23 @@ function head(title, w) {
   )}</text>`;
 }
 
-// GitHub Stats —— 2x3 大数字宫格
+// GitHub Stats —— 3×2 大数字宫格，与 langs 等高
 function statsCard(items) {
   const w = 360,
-    cols = 2,
+    cols = 3,
     cw = (w - 44) / cols,
-    ch = 96,
+    ch = 88,
     rows = Math.ceil(items.length / cols),
-    h = 84 + rows * ch + 16;
+    h = 84 + rows * ch + 24;
   const cells = items
     .map((it, i) => {
       const cx = 22 + (i % cols) * cw;
       const cy = 84 + Math.floor(i / cols) * ch;
       return `
-    <text x="${cx + 12}" y="${cy + 34}" font-family="${SERIF}" font-size="15" fill="${SUB}">${esc(
+    <text x="${cx + 8}" y="${cy + 28}" font-family="${SERIF}" font-size="14" fill="${SUB}">${esc(
         it.label
       )}</text>
-    <text x="${cx + 12}" y="${cy + 70}" font-family="${SERIF}" font-size="34" font-weight="bold" fill="${INK}">${esc(
+    <text x="${cx + 8}" y="${cy + 66}" font-family="${SERIF}" font-size="32" font-weight="bold" fill="${INK}">${esc(
         it.value
       )}</text>`;
     })
@@ -88,15 +88,14 @@ function statsCard(items) {
 </svg>`;
 }
 
-// Top Languages —— 横向占比条
+// Top Languages —— 横向占比条，高度与 stats 对齐（300px）
 function langsCard(langs, total) {
   const w = 360,
-    h = 320;
+    h = 300;
   const top = 84,
-    rowH = 38,
-    barX = 110,
-    barW = 220,
-    maxRows = langs.length;
+    rowH = 34,
+    barX = 106,
+    barW = 220;
   const rows = langs
     .map(([name, v], i) => {
       const y = top + i * rowH;
@@ -104,12 +103,12 @@ function langsCard(langs, total) {
       const fillW = (Math.max(v / total, 0.001) * barW).toFixed(1);
       const color = langColors[name] || "#b0a890";
       return `
-    <text x="22" y="${y + 18}" font-family="${SERIF}" font-size="14" fill="${SUB}">${esc(
+    <text x="22" y="${y + 17}" font-family="${SERIF}" font-size="14" fill="${SUB}">${esc(
         name
       )}</text>
-    <rect x="${barX}" y="${y + 4}" width="${barW}" height="16" rx="8" fill="#e3ded2"/>
-    <rect x="${barX}" y="${y + 4}" width="${fillW}" height="16" rx="8" fill="${color}"/>
-    <text x="${barX + barW}" y="${y + 18}" text-anchor="end" font-family="${SERIF}" font-size="14" fill="${INK}">${pct}%</text>`;
+    <rect x="${barX}" y="${y + 4}" width="${barW}" height="14" rx="7" fill="#e3ded2"/>
+    <rect x="${barX}" y="${y + 4}" width="${fillW}" height="14" rx="7" fill="${color}"/>
+    <text x="${barX + barW}" y="${y + 17}" text-anchor="end" font-family="${SERIF}" font-size="14" fill="${INK}">${pct}%</text>`;
     })
     .join("");
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">

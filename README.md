@@ -21,13 +21,47 @@
 
 ---
 
+### 🏆 3D Contribution
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D Contribution"/>
+</p>
+
+---
+
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/stats.svg" alt="GitHub Stats"/>
-  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/langs.svg" alt="Top Languages"/>
-  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/wakatime.svg" alt="Coding Time"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/stats.svg?v=3" alt="GitHub Stats"/>
+  <img src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/wakatime.svg?v=3" alt="Coding Time"/>
 </p>
+
+---
+
+### ⏱️ Coding Activity
+
+<!-- wakatime:start -->
+```text
+📊 This Week I Spent My Time On
+
+⏱️  Total Time                 4 hrs 3 mins
+
+💬 Programming Languages:
+  TypeScript                    ██████████░░░░░░░░░░░░░░░  41.2%
+  Python                        ██████░░░░░░░░░░░░░░░░░░░  23.8%
+  Dart                          ███░░░░░░░░░░░░░░░░░░░░░░  12.5%
+  HTML                          ██░░░░░░░░░░░░░░░░░░░░░░░  10.1%
+  Other                         ███░░░░░░░░░░░░░░░░░░░░░░  12.4%
+
+🔥 Editors:
+  VS Code                       ██████████████████████░░░  88.7%
+  Android Studio                ██░░░░░░░░░░░░░░░░░░░░░░░  11.3%
+
+💻 Operating System:
+  Windows                       ████████████████████████░  96.5%
+  Linux                         ░░░░░░░░░░░░░░░░░░░░░░░░░   3.5%
+```
+<!-- wakatime:end -->
 
 ---
 

@@ -50,6 +50,19 @@ jobs:
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
+      - name: Inject WakaTime into README
+        run: |
+          CONTENT=$(cat dist/wakatime.md)
+          sed -i "/<!-- wakatime:start -->/,/<!-- wakatime:end -->/{ /<!-- wakatime:start -->/{p; r dist/wakatime.md"$'\n'"}; /<!-- wakatime:end -->/!d; }" README.md
+
+      - name: Commit README update
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update wakatime stats [skip ci]"
+          git push origin main
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
