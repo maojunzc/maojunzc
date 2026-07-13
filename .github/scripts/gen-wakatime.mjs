@@ -9,6 +9,12 @@ function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+const BG = "#f4f1ea";
+const INK = "#2c2a27";
+const SUB = "#5c574f";
+const ACCENT = "#9a8f7a";
+const SERIF = "Georgia, 'Times New Roman', serif";
+
 let totalText = "No data yet";
 let avgText = "—";
 
@@ -28,19 +34,21 @@ if (KEY) {
   console.warn("WAKATIME_API_KEY not set, rendering placeholder");
 }
 
-const accent = "#9a8f7a";
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="360" height="156" viewBox="0 0 360 156">
-  <rect width="360" height="156" rx="10" fill="#f4f1ea" stroke="${accent}" stroke-width="1" opacity="0.95"/>
-  <text x="20" y="38" font-family="Georgia, serif" font-size="18" font-style="italic" fill="#2c2a27">Coding Time · 7d</text>
-  <line x1="20" y1="50" x2="340" y2="50" stroke="${accent}" stroke-width="1" opacity="0.7"/>
-  <text x="20" y="92" font-family="Georgia, serif" font-size="15" fill="#5c574f">Total</text>
-  <text x="340" y="92" text-anchor="end" font-family="Georgia, serif" font-size="20" fill="#2c2a27">${esc(
+const w = 360,
+  h = 320;
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">
+  <rect width="${w}" height="${h}" rx="12" fill="${BG}" stroke="${ACCENT}" stroke-width="1" opacity="0.97"/>
+  <line x1="22" y1="30" x2="58" y2="30" stroke="${ACCENT}" stroke-width="2"/>
+  <text x="22" y="56" font-family="${SERIF}" font-size="19" font-style="italic" fill="${INK}">Coding Time · 7d</text>
+  <text x="22" y="118" font-family="${SERIF}" font-size="15" fill="${SUB}">Total</text>
+  <text x="338" y="120" text-anchor="end" font-family="${SERIF}" font-size="34" font-weight="bold" fill="${INK}">${esc(
     totalText
   )}</text>
-  <text x="20" y="128" font-family="Georgia, serif" font-size="15" fill="#5c574f">Daily avg</text>
-  <text x="340" y="128" text-anchor="end" font-family="Georgia, serif" font-size="20" fill="#2c2a27">${esc(
+  <text x="22" y="208" font-family="${SERIF}" font-size="15" fill="${SUB}">Daily average</text>
+  <text x="338" y="210" text-anchor="end" font-family="${SERIF}" font-size="34" font-weight="bold" fill="${INK}">${esc(
     avgText
   )}</text>
+  <text x="22" y="290" font-family="${SERIF}" font-size="13" fill="${ACCENT}">tracked via WakaTime</text>
 </svg>`;
 
 writeFileSync("dist/wakatime.svg", svg);
