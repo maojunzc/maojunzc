@@ -59,3 +59,26 @@
 💬 Programming Languages: No Activity Tracked This Week
 🔥 Editors: No Activity Tracked This Week
 💻 Operating System: No Activity Tracked This Week
+```
+
+---
+
+### 🔥 Featured Projects
+
+| 项目 | 简介 |
+| --- | --- |
+| [maojunzc.github.io](https://github.com/maojunzc/maojunzc.github.io) | 个人博客（HTML） |
+| [knowledge-base](https://github.com/maojunzc/knowledge-base) | 知识库应用（TypeScript） |
+| [mimotion](https://github.com/maojunzc/mimotion) | 小米运动自动刷步数（Python） |
+| [BeeCount](https://github.com/maojunzc/BeeCount) | 开源记账 App，支持 iCloud/自建同步（Dart） |
+| [inkos](https://github.com/maojunzc/inkos) | Story Creation AI Agent（TypeScript） |
+
+---
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maojunzc/maojunzc/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maojunzc/maojunzc/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/maojunzc/maojunzc/output/github-contribution-grid-snake.svg" />
+</picture>
