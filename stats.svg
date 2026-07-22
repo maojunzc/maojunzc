@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="284" viewBox="0 0 360 284">
+  <rect width="360" height="284" rx="12" fill="#f4f1ea" stroke="#9a8f7a" stroke-width="1" opacity="0.97"/>
+  
+  <line x1="22" y1="30" x2="58" y2="30" stroke="#9a8f7a" stroke-width="2"/>
+  <text x="22" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#2c2a27">GitHub Stats</text>
+  
+    <text x="30" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Repositories</text>
+    <text x="30" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#2c2a27">7</text>
+    <text x="135.33333333333331" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Total Stars</text>
+    <text x="135.33333333333331" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#2c2a27">1</text>
+    <text x="240.66666666666666" y="112" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Commits</text>
+    <text x="240.66666666666666" y="150" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#2c2a27">109</text>
+    <text x="30" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Pull Requests</text>
+    <text x="30" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#2c2a27">0</text>
+    <text x="135.33333333333331" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Issues</text>
+    <text x="135.33333333333331" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#2c2a27">0</text>
+    <text x="240.66666666666666" y="200" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#5c574f">Followers</text>
+    <text x="240.66666666666666" y="238" font-family="Georgia, 'Times New Roman', serif" font-size="32" font-weight="bold" fill="#2c2a27">2</text>
+</svg>
